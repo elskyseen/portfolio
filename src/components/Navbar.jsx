@@ -9,27 +9,27 @@ import phoneIcon from "../assets/icon/phone_icon.svg"
 
 const links = [
   {
-    path: "/",
+    path: "#home",
     icon: homeIcon,
   },
   {
-    path: "/",
+    path: "#about-me",
     icon: aboutIcon,
   },
   {
-    path: "/",
+    path: "#resume",
     icon: resumeIcon,
   },
   {
-    path: "/",
+    path: "#skills",
     icon: gearIcon,
   },
   {
-    path: "/",
+    path: "#projects",
     icon: suitaseIcon,
   },
   {
-    path: "/",
+    path: "#contact",
     icon: phoneIcon,
   },
 ]
@@ -38,9 +38,7 @@ const Navbar = () => {
   return (
     <nav className="w-full py-4 flex justify-center items-center gap-8 fixed bottom-8 right-0 z-50">
       {links.map((link, i) => {
-        return (
-          <LinkIcon key={i} path={link.path} icon={link.icon} target="_blank" />
-        )
+        return <LinkIcon key={i} path={link.path} icon={link.icon} />
       })}
     </nav>
   )

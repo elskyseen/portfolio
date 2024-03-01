@@ -17,14 +17,18 @@ export default {
       },
       width: {
         c21: "21px",
+        c35: "35px",
         c38: "38px",
         c50: "50px",
+        c60: "60px",
         c236: "236px",
         c336: "336px",
       },
       height: {
+        c35: "35px",
         c38: "38px",
         c50: "50px",
+        c60: "60px",
         c236: "236px",
       },
       borderRadius: {
