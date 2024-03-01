@@ -33,7 +33,7 @@ const resumes = [
 
 const Resume = () => {
   return (
-    <section id="about-me" className="bg-primary px-40 pt-20 pb-c120">
+    <section id="resume" className="bg-primary px-40 pt-20 pb-c120">
       <h1 className="font-bold text-4xl text-secondary capitalize text-center mb-c72  ">
         resume
       </h1>

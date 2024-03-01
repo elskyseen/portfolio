@@ -9,6 +9,7 @@ export default {
         common: "#161616",
       },
       margin: {
+        c26: "26px",
         c72: "72px",
       },
       padding: {
@@ -18,11 +19,13 @@ export default {
         c21: "21px",
         c38: "38px",
         c50: "50px",
+        c236: "236px",
         c336: "336px",
       },
       height: {
         c38: "38px",
         c50: "50px",
+        c236: "236px",
       },
       borderRadius: {
         8: "8px",
