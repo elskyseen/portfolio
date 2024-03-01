@@ -8,6 +8,18 @@ export default {
         secondary: "#F7F7F7",
         common: "#161616",
       },
+      width: {
+        c21: "21px",
+        c38: "38px",
+        c50: "50px",
+      },
+      height: {
+        c38: "38px",
+        c50: "50px",
+      },
+      borderRadius: {
+        8: "8px",
+      },
     },
   },
   plugins: [],

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  font-family: "Plus Jakarta Sans";
+}
+
+*::selection{
+  background-color: #161616;
+  color: #F7F7F7;
+}
