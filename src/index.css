@@ -7,6 +7,14 @@
 }
 
 *::selection{
-  background-color: #161616;
-  color: #F7F7F7;
+  background-color: #F7F7F7;
+  color: #161616;
+}
+
+.dark-photo:hover{
+  opacity: 0;
+}
+
+.normal-photo:hover{
+  opacity: 0;
 }
