@@ -2,7 +2,7 @@ import React from "react"
 
 const Tab = ({ texts, isActive, onTab }) => {
   return (
-    <div className="flex rounded-8 bg-common mb-c72 max-w-max border-2 border-common">
+    <div className="flex gap-2 rounded-8 bg-common mb-c72 max-w-max border-2 border-common">
       {texts.map((text, i) => {
         return (
           <button
