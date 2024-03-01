@@ -4,6 +4,7 @@
 
 *{
   font-family: "Plus Jakarta Sans";
+  scroll-behavior: smooth;
 }
 
 *::selection{

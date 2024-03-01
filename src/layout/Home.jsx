@@ -5,7 +5,9 @@ import downloadIcon from "../assets/icon/download_icon.svg"
 
 const Home = () => {
   return (
-    <div className="w-full min-h-dvh bg-primary px-40 flex justify-center items-center flex-col gap-8 capitalize text-6xl text-center text-secondary">
+    <section
+      id="home"
+      className="w-full min-h-dvh bg-primary px-40 flex justify-center items-center flex-col gap-8 capitalize text-6xl text-center text-secondary">
       <p>
         hi, saya <span className="font-bold">leo Marselio</span>
         <br />
@@ -21,7 +23,7 @@ const Home = () => {
           target="blank"
         />
       </div>
-    </div>
+    </section>
   )
 }
 
