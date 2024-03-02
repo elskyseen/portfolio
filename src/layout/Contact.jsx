@@ -36,8 +36,10 @@ const medias = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-primary px-40 pt-20 pb-c120">
-      <h1 className="text-6xl text-center text-secondary mb-9">
+    <section
+      id="contact"
+      className="bg-primary px-4 lg:px-40 pt-20 pb-32 lg:pb-c120">
+      <h1 className="text-xl lg:text-6xl text-center text-secondary mb-9">
         <span className="font-bold">Cari tau lebih banyak tentang saya</span>
         <br />
         melalui sosial media
@@ -50,10 +52,10 @@ const Contact = () => {
               path={media.path}
               icon={media.icon}
               target="_blank"
-              customWidth="w-c60"
-              customHeight="h-c60"
-              widthIcon="w-c35"
-              heightIcon="h-c35"
+              customWidth="w-12 lg:w-c60"
+              customHeight="h-12 lg:h-c60"
+              widthIcon="w-6 lg:w-c35"
+              heightIcon="h-6 lg:h-c35"
             />
           )
         })}
