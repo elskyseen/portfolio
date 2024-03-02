@@ -4,12 +4,14 @@ import normalPhoto from "../assets/image/normal-photo.jpg"
 
 const About = () => {
   return (
-    <section id="about-me" className="bg-primary px-40 pt-20 pb-c120">
-      <h1 className="font-bold text-4xl text-secondary capitalize text-center mb-c72  ">
+    <section
+      id="about-me"
+      className="bg-primary px-4 lg:px-40 pt-20 pb-1 lg:pb-c120">
+      <h1 className="font-bold text-xl lg:text-4xl text-secondary capitalize text-center mb-10 lg:mb-c72  ">
         tentang saya
       </h1>
-      <div className="grid grid-cols-12">
-        <div className="col-span-6 p-4 rounded-8 border-2 border-secondary text-secondary">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-0">
+        <div className="col-span-1 lg:col-span-6 p-4 rounded-8 border-2 border-secondary text-secondary">
           Saya Leo Marselio, lulusan dari SMKN 1 DLANGGU dan diumumkan lulus
           pada tahun 2023 tepatnya pada tanggal 8 mei 2023, saya memiliki minat
           untuk menjadi Frontend Developer sejak memasuki pendidikan SMK, dengan
@@ -27,16 +29,16 @@ const About = () => {
           Intensive Pairing dari Refactory, semua tentang pengalaman saya akan
           lebih detail pada tab Resume
         </div>
-        <div className="col-span-6 flex justify-center relative">
+        <div className="col-span-1 lg:col-span-6 flex justify-center relative">
           <img
             src={normalPhoto}
             alt="my-photo"
-            className="w-c336 rounded-8 border-2 border-secondary h-full normal-photo transition-all ease-in-out duration-500 absolute"
+            className="w-full lg:w-c336 rounded-8 border-2 border-secondary h-full normal-photo transition-all ease-in-out duration-500"
           />
           <img
             src={darkPhoto}
             alt="my-photo"
-            className="w-c336 rounded-8 border-2 border-secondary h-full dark-photo transition-all ease-in-out duration-500 absolute"
+            className="w-full lg:w-c336 rounded-8 border-2 border-secondary h-full dark-photo transition-all ease-in-out duration-500 absolute"
           />
         </div>
       </div>

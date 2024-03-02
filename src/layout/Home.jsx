@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="w-full min-h-dvh bg-primary px-40 flex justify-center items-center flex-col gap-8 capitalize text-6xl text-center text-secondary">
+      className="w-full min-h-dvh bg-primary px-4 lg:px-40 flex justify-center items-center flex-col gap-8 capitalize text-xl lg:text-6xl text-center text-secondary">
       <p>
         hi, saya <span className="font-bold">leo Marselio</span>
         <br />

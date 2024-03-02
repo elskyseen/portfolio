@@ -33,11 +33,13 @@ const resumes = [
 
 const Resume = () => {
   return (
-    <section id="resume" className="bg-primary px-40 pt-20 pb-c120">
-      <h1 className="font-bold text-4xl text-secondary capitalize text-center mb-c72  ">
+    <section
+      id="resume"
+      className="bg-primary px-4 lg:px-40 pt-20 pb-1 lg:pb-c120">
+      <h1 className="font-bold text-xl lg:text-4xl text-secondary capitalize text-center mb-10 lg:mb-c72  ">
         resume
       </h1>
-      <div className="grid grid-cols-12 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
         {resumes.map((resume, i) => {
           return <CardResume key={i} {...resume} />
         })}

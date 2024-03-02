@@ -23,14 +23,18 @@ const Project = () => {
     setIsActive(i)
   }
   return (
-    <section id="projects" className="bg-primary px-40 pt-20 pb-c120">
-      <h1 className="font-bold text-4xl text-secondary capitalize text-center mb-c26">
+    <section
+      id="projects"
+      className="bg-primary px-4 lg:px-40 pt-20 pb-1 lg:pb-c120">
+      <h1 className="font-bold text-xl lg:text-4xl text-secondary capitalize text-center mb-c26">
         project
       </h1>
       <div className="flex justify-center w-full">
         <Tab texts={["project", "design"]} isActive={isActive} onTab={onTab} />
       </div>
-      <div className="grid grid-cols-12 gap-4">{renderSkill}</div>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
+        {renderSkill}
+      </div>
     </section>
   )
 }

@@ -36,7 +36,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav className="w-full py-4 flex justify-center items-center gap-8 fixed bottom-8 right-0 z-50">
+    <nav className="w-full py-4 flex justify-center items-center gap-3 lg:gap-8 fixed bottom-8 right-0 z-50">
       {links.map((link, i) => {
         return <LinkIcon key={i} path={link.path} icon={link.icon} />
       })}
